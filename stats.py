@@ -32,7 +32,7 @@ def get_std(lst):
 
 numsList = []
 
-# checks if arguments were given and read text file if they weren't
+# checks if arguments were given and reads text file if they weren't
 # replaces "," with "." and appends given or read numbers to a list as float
 if len(sys.argv) < 2:
     nums = open("numbers.txt", "r").read()
